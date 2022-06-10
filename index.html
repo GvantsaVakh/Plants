@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Main</title>
+</head>
+<body>
+    <header>
+        <div class="firstheader">
+            
+            <a href="index.html"><h1></h1></a>
+            <div class="pop">
+                <div class="square" id="square" >
+                    <div class="squarefirst">
+                         <div class="plantimg">
+                            <img src="imgs/plant-graphic.png" alt="">
+                        </div>
+                        <p>
+                            Passionate about plants? So are we! Costa Farms is a wholesale grower that discovers, develops, and grows plants for your home and life -- indoors and out. We’re your online gardening resource for plant info and inspiration. Our articles, blogs, tips, and photos help you use plants to beautify your living spaces and enhance your life.
+                        </p>
+                    </div>
+                   
+                    <a href="aboutus.html" class="learn" >
+                        learn more about us
+                    </a>
+                </div>
+                <div class="semicircle" onclick="chamoweva();" >
+                    <p>passionate about plants</p>
+                    <div class="arrow">
+                        <img src="imgs/Rectangle 4.png" alt="" id="changearrow" >
+                    </div>
+                </div>
+            </div>
+            <div class="social">
+                <div class="soc">
+                    <a href=""><img src="imgs/Rectangle 14.png" alt=""></img></a>
+                    
+                </div>  
+                <div class="soc">
+                    <a href=""> <img src="imgs/Rectangle 13.png" alt=""></img></a>
+                   
+                </div>
+            </div>
+            
+        </div>
+      
+       
+        <div class="secondheader">
+            <div class="navigacia">
+                <div class="search1">
+                    <input type="search" placeholder="search">
+                    <button class="searchlogo"></button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">main</a></li>
+                        <li><a href="#" class="types" onclick="innerdown();" >plant types<span id="navarrow" >&#8964;</span></a></li>
+                        <li><a href="aboutus.html">about us</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </nav>
+                <ul class="innernav" id="innernav">
+                    <li><a href="shrubs.html">shrubs</a></li>
+                    <li><a href="trees.html">trees</a></li>
+                    <li><a href="succulents.html">succulents</a></li>
+                    <li><a href="vegetables.html">vegetables</a></li>
+                    <li><a href="other.html">other</a></li>
+                </ul>
+            </div>
+            
+            <div class="search">
+                <input type="search" placeholder="search">
+                <button class="searchlogo"></button>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="pics">
+                    <img src="imgs//slider1pic.PNG" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pics">
+                    <img src="imgs/slider01.jpg" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pics">
+                    <img src="imgs/slider02.jpg" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pics">
+                    <img src="imgs/slider04.jpg" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <div class="pics">
+                    <img src="imgs/slider05.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="maintypes">
+            <p class="title" >plants</p>
+            <div class="typesfirstrow">
+                <a href="vegetables.html">
+                    <div class="typesimgs"> 
+                        <div class="circle">
+                            <img src="imgs/Ellipse 4.png" alt="">
+                        </div>
+                        <p>vegetables</p>
+                    </div>
+                </a>
+                <a href="shrubs.html">
+                    <div class="typesimgs">
+                        <div class="circle">
+                            <img src="imgs/Ellipse 7.png" alt="">
+                        </div>
+                        <p>shrubs</p>
+                    </div>
+                </a>
+                
+                <a href="trees.html">
+                    <div class="typesimgs">
+                        <div class="circle">
+                            <img src="imgs/Ellipse 6.png" alt="">
+                        </div>
+                        <p>trees</p>
+                    </div>
+                </a>
+                
+                
+            </div>
+            <div class="typessecondrow">
+                <a href="succulents.html">
+                   <div class="typesimgs">
+                    <div class="circle">
+                        <img src="imgs/Ellipse 5.png" alt="">
+                    </div>
+                    <p>succulents</p>
+                </div> 
+                </a>
+                
+                <a href="other.html">
+                    <div class="typesimgs">
+                        <div class="circle">
+                            <img src="imgs/Ellipse 2.png" alt="">
+                        </div>
+                        <p>other</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+        <div class="mainus">
+            <a href="aboutus.html"><p  class="title">About Us</p></a>
+            <div class="plant1">
+                <img src="imgs/image 1.png" alt="">
+            </div>
+            <div class="plant2">
+                <img src="imgs/image 2.png" alt="">
+            </div> 
+            <div class="usflex">
+                <div class="profile pirveli">
+                    <div class="pp"><img src="imgs/Rectangle 20.png" alt=""></div>
+                    <p>Founder</p>
+                </div>
+                <div class="line"></div>
+                <div class="profile meore">
+                    <div class="pp"><img src="imgs/Rectangle 21.png" alt=""></div>
+                    <p>Farmer</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2022 ALL RIGHTS RESERVED</p>
+        <p>created by: Gvantsa Vakhtangishvili</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/scripts.js" ></script>
+</body>
+</html>
